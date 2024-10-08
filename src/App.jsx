@@ -10,7 +10,7 @@ import WriteMessage from "./writeMessage/WriteMessage";
 const App = () => {
   return (
   <>
-  <SayHello>tati</SayHello>
+  <SayHello name='tati'/>
   <CalculateSquareArea>2</CalculateSquareArea>
   <CalculateTriangleArea base={4} height={5}/>
   <CalculateCircleArea radius={2}/>

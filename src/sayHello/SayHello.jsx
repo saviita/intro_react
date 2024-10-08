@@ -1,4 +1,4 @@
-const SayHello = ({children}) => {
-    return <h2>Hola {children}</h2>
+const SayHello = ({name}) => {
+    return <h2>Hola {name}</h2>
 };
 export default SayHello;
